@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    0%{background-position: 0% 50%;}
+}
+
+.animate-gradient{
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes matrix-column {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(100vh);
+    }
+}
+
+@keyframes matrix-char {
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    0%{opacity: 0;}
+}
+
+.animate-matrix-column{
+    animation: matrix-column 5s linear infinite;
+}
+
+.animate-matrix-char{
+    animation: matrix-char 1s infinite;
+}
