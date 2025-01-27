@@ -10,9 +10,9 @@ const TimeLine: FC = () =>{
         <div className="flex items-center w-full">
           <div className="w-1/2 pr-8 text-right">
             <h3 className="text-xl font-bold">Estudios</h3>
-            <p className="text-gray-600">Técnico Medio en Elaboración de Alimentos</p>
-            <p className="text-gray-600">Operador de Microcomputadoras</p>
-            <p className="text-gray-600">Licenciatura en Contabilidad y Finanzas</p>
+            <p className="text-slate-300">Técnico Medio en Elaboración de Alimentos</p>
+            <p className="text-slate-300">Operador de Microcomputadoras</p>
+            <p className="text-slate-300">Licenciatura en Contabilidad y Finanzas</p>
           </div>
           <div className="size-12 bg-blue-500 rounded-full flex items-center justify-center relative">
             <FaGraduationCap className="text-white text-2xl" />
@@ -30,8 +30,8 @@ const TimeLine: FC = () =>{
           </div>
           <div className="w-1/2 pl-8">
             <h3 className="text-xl font-bold">Trayectoria Laboral</h3>
-            <p className="text-gray-600">Tecnico A en Gestión de RRHH</p>
-            <p className="text-gray-600">Tecnico C en Gestión Documental</p>
+            <p className="text-slate-300">Tecnico A en Gestión de RRHH</p>
+            <p className="text-slate-300">Tecnico C en Gestión Documental</p>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ const TimeLine: FC = () =>{
         <div className="flex items-center w-full">
           <div className="w-1/2 pr-8 text-right">
             <h3 className="text-xl font-bold">Freelance</h3>
-            <p className="text-gray-600">Desarrollo de Proyectos independientes para android y webs, utilizando, java, javascript, php, css, Html5, React, Tailwind, etc...</p>
+            <p className="text-slate-300">Desarrollo de Proyectos independientes para android y webs, utilizando, java, javascript, php, css, Html5, React, Tailwind, etc...</p>
           </div>
           <div className="size-12 bg-purple-500 rounded-full flex items-center justify-center relative">
             <FaCode className="text-white text-2xl" />
@@ -56,8 +56,8 @@ const TimeLine: FC = () =>{
           </div>
           <div className="w-1/2 pl-9">
             <h3 className="text-xl font-bold">Colaboraciones</h3>
-            <p className="text-gray-600">Mirage</p>
-            <p className="text-gray-600">ERC20 - Vault</p>
+            <p className="text-slate-300">Mirage</p>
+            <p className="text-slate-300">ERC20 - Vault</p>
           </div>
         </div>
       </div>
