@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="flex items-center justify-center h-screen bg-slate-950 flex-col gap-4 text-white">
       <MatrixBackground/>
-        <h1 className="text-6xl h-20 font-bold bg-gradient-to-r from-green-500 via-blue-500 to-green-500 bg-clip-text text-transparent animate-gradient">Welcome to lazaroysr96</h1>
+        <h1 className="sm:text-6xl text-3xl h-20 font-bold bg-gradient-to-r from-green-500 via-blue-500 to-green-500 bg-clip-text text-transparent animate-gradient">Welcome to lazaroysr96</h1>
 
       <div className="flex gap-2 z-10">
         <Icon Icon={IoLogoAndroid}/>
@@ -33,6 +33,7 @@ function App() {
         <Icon Icon={BiLogoPhp}/>
       </div>
       <h3 className="text-xl">Lic. Lazaro Yunier Salazar Rodriguez</h3>
+      <h2 className="text-lg">Desarrollador Full Stack</h2>
       <TimeLine/>
     </div>
   );
